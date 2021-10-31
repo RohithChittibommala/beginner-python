@@ -1,0 +1,4 @@
+list1 = [-11,23,-45,23,-64,-22,-11,24]
+# lambda exp.
+no = list(filter(lambda x: (x < 0), list1))
+print("Negative numbers in the list: ", no)
